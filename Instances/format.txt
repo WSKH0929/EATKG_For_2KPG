@@ -12,4 +12,4 @@ t: item type ID (starting from 1)
 w_t: width of item type t
 h_t: height of item type t
 p_t: profit of item type t
-d_t: maximum number of item type t
+d_t: copy number of item type t
