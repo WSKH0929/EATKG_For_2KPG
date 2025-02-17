@@ -45,6 +45,24 @@ The structure of the repository is shown below:
 
 
 
+```sheel
+m
+n
+W H
+w_t h_t p_t d_t (for each t=1,2,...,m)
+
+where:
+m: number of item types
+n: number of available items
+W: width of the container
+H: height of the container
+t: item type ID (starting from 1)
+w_t: width of item type t
+h_t: height of item type t
+p_t: profit of item type t
+d_t: copy number of item type t
+```
+
 ## Results
 
 
