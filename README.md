@@ -41,9 +41,29 @@ The structure of the repository is shown below:
 └─Tables
 ```
 
+## Code
+
+In the **`Code/EATKG`** directory, you will find the source code of our algorithm (EATKG). We compiled and ran the code using the following software:
+
+- IntelliJ IDEA 2024.3.3
+- Oracle OpenJDK 23.0.1
+- Apache MAVEN 3.99
+
+Users can run EATKG through **`src/main/java/com/wskh/run/RunSolver.java`**.
+
+Note that we installed the jar package of CPLEX into MAVEN so that we can use it directly by introducing the following dependency:
+
+```xml
+<dependency>
+    <groupId>cplex</groupId>
+    <artifactId>cplex</artifactId>
+    <version>12.8.0</version>
+</dependency>
+```
+
 ## Instances
 
-
+The **`Instances`** directory contains the **8** benchmark sets we used, and the format of each instance file is as follows:
 
 ```sheel
 m
@@ -70,9 +90,3 @@ d_t: copy number of item type t
 - **Set**: .
 
 ## Tables
-
-
-
-## Code
-
-In the **`Code/EATKG`** folder, you will find the source code of our algorithm (EATKG).
