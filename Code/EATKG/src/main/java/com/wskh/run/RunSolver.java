@@ -61,6 +61,8 @@ public class RunSolver {
 
             if (!file.getName().endsWith(".ins")) continue;
 
+            if(!file.getName().contains("CHL1'.ins")) continue;
+
             if (csv != null) System.out.println("=========== " + file.getAbsolutePath() + " ===========");
 
             if (file.getName().equals("GCUT13.ins")) {
