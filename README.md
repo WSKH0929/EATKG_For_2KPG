@@ -71,14 +71,14 @@ Users need to replace **`D:\WSKH\Environment\Cplex\Cplex_Library_And_Bin\Cplex12
 Moreover, we used the following Virtual Machine Options to compile and run the proposed algorithm:
 
 ```shell
--Xms8G -Xmx8G -Djava.library.path=D:\WSKH\Environment\Cplex\Cplex_Library_And_Bin\Cplex1263\cplex\bin\x64_win64
+-Xms8G -Xmx8G -Djava.library.path=D:\WSKH\Environment\Cplex\Cplex_Library_And_Bin\Cplex1280\bin\x64_win64
 ```
 
 where
 
 -  **`-Xms8G`** sets the initial heap size to 8 GB.
 -  **`-Xmx8G`** the maximum heap size to 8 GB.
--  **`-Djava.library.path=D:\WSKH\Environment\Cplex\Cplex_Library_And_Bin\Cplex1263\cplex\bin\x64_win64`** specifies the path to the native libraries for CPLEX, allowing JAVA to locate them for use.
+-  **`-Djava.library.path=D:\WSKH\Environment\Cplex\Cplex_Library_And_Bin\Cplex1280\bin\x64_win64`** specifies the path to the native libraries for CPLEX, allowing JAVA to locate them for use.
 
 ## Instances
 
