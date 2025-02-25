@@ -44,7 +44,7 @@ The structure of the repository is shown below:
 
 In the **`Code/EATKG`** directory, you will find the source code of our algorithm (EATKG). We compiled and ran the code using the following software:
 
-- IntelliJ IDEA 2024.3.3
+- IntelliJ IDEA 2024.3.3 (Compiler)
 - Oracle OpenJDK 23.0.1
 - Apache MAVEN 3.99
 
@@ -60,9 +60,25 @@ Notably, we installed the jar package of CPLEX into MAVEN so that we can use it 
 </dependency>
 ```
 
-The commands used are as follows:
+The command used is as follows:
 
+```shell
+mvn install:install-file -Dfile=D:\WSKH\Environment\Cplex\Cplex_Library_And_Bin\Cplex1280\lib\cplex.jar -DgroupId=cplex -DartifactId=cplex -Dversion=12.8.0 -Dpackaging=jar
+```
 
+Users need to replace **`D:\WSKH\Environment\Cplex\Cplex_Library_And_Bin\Cplex1280\lib\cplex.jar`** with the file path of their own jar package of CPLEX.
+
+Moreover, we used the following Virtual Machine Options to compile and run the proposed algorithm:
+
+```shell
+-Xms8G -Xmx8G -Djava.library.path=D:\WSKH\Environment\Cplex\Cplex_Library_And_Bin\Cplex1263\cplex\bin\x64_win64
+```
+
+where
+
+-  **`-Xms8G`** sets the initial heap size to 8 GB.
+-  **`-Xmx8G`** the maximum heap size to 8 GB.
+-  **`-Djava.library.path=D:\WSKH\Environment\Cplex\Cplex_Library_And_Bin\Cplex1263\cplex\bin\x64_win64`** specifies the path to the native libraries for CPLEX, allowing JAVA to locate them for use.
 
 ## Instances
 
