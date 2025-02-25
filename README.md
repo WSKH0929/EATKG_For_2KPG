@@ -108,31 +108,31 @@ The **`Results`** directory contains results for two full versions (EATKG and EA
 
 We provide a csv file of the aggregated results for each version, where the columns have the following meanings:
 
-- **set**: 
-- **subset**: 
-- **instance**: 
-- **m**: 
-- **n**: 
-- **W**: 
-- **H**: 
-- **sum_w**: 
-- **sum_h**: 
-- **m'**: 
-- **n'**: 
-- **W'**: 
-- **H'**: 
-- **sum_w'**: 
-- **sum_h'**: 
-- **ub**: 
-- **lb**: 
-- **gap**: 
-- **opt**: 
-- **OOM**: 
-- **pre_time(s)**: 
-- **ub0_time(s)**: 
-- **dp_time(s)**: 
-- **bid_time(s)**:
-- **time(s)**: .
+- **set**: name of the benchmark set to which the instance belongs.
+- **subset**: name of the benchmark subset to which the instance belongs.
+- **instance**: name of the instance.
+- **m**: number of item types.
+- **n**: number of items.
+- **W**: width of the container.
+- **H**: height of the container.
+- **sum_w**: total width of items.
+- **sum_h**: total height of items.
+- **m'**: number of item types after preprocessing.
+- **n'**: number of items after preprocessing.
+- **W'**: width of the container after preprocessing.
+- **H'**: height of the container after preprocessing.
+- **sum_w'**: total width of items after preprocessing.
+- **sum_h'**: total height of items after preprocessing.
+- **ub**: upper bound on the optimal solution value.
+- **lb**: lower bound on the optimal solution value.
+- **gap**: optimality gap, computed as (ub-lb)/ub.
+- **opt**: whether a proven optimal solution has been found for the instance (yes: 1, no: 0).
+- **OOM**: whether a memory overflow occur during the execution of the bidirectional tree search method (yes: 1, no: 0).
+- **pre_time(s)**: time used for preprocessing (in seconds).
+- **ub0_time(s)**: time used for computing the initial upper bound (in seconds).
+- **dp_time(s)**: time used for the greedy DP heuristic (in seconds).
+- **bid_time(s)**: time used for bidirectional tree search method (in seconds).
+- **time(s)**: total time of algorithm execution (in seconds).
 
 In particular, we provide the solution of each instance computed by the two full versions and its visualization, such as the solution visualization of GCUT13 below:
 
