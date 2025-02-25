@@ -1,0 +1,20 @@
+isOpt LB UB Gap
+n'
+W H
+t_i x_i y_i w_i h_i p_i (for each i=1,2,...,n')
+
+where:
+isOpt: is it a proven optimal solution? (true or false)
+LB: solution value (total profit of packed items)
+UB: upper bound on the optimal solution value
+Gap: (UB-LB)/UB
+n': number of packed items
+W: width of the container
+H: height of the container
+i: item index
+t_i: item type of the i-th item
+x_i: x coordinate of the lower left corner of the i-th item
+y_i: y coordinate of the lower left corner of the i-th item
+w_i: width of the i-th item
+h_i: height of the i-th item
+p_i: profit of the i-th item
