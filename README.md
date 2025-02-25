@@ -60,6 +60,10 @@ Notably, we installed the jar package of CPLEX into MAVEN so that we can use it 
 </dependency>
 ```
 
+The commands used are as follows:
+
+
+
 ## Instances
 
 The **`Instances`** directory contains the **8** benchmark sets we used, and the format of each instance file is as follows:
