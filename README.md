@@ -82,7 +82,7 @@ where
 
 ## Instances
 
-The **`Instances`** directory contains the **8** benchmark sets we used, and the format of each instance file is as follows:
+The **`Instances`** directory contains the instances in **8** benchmark sets we used, and the format of each instance file is as follows:
 
 ```shell
 m
@@ -103,6 +103,40 @@ d_t: copy number of item type t
 ```
 
 ## Results
+
+The **`Results`** directory contains results for two full versions (EATKG and EATKG (530s)) of the proposed algorithm as well as results for other versions.
+
+We provide a csv file of the aggregated results for each version, where the columns have the following meanings:
+
+- **set**: 
+- **subset**: 
+- **instance**: 
+- **m**: 
+- **n**: 
+- **W**: 
+- **H**: 
+- **sum_w**: 
+- **sum_h**: 
+- **m'**: 
+- **n'**: 
+- **W'**: 
+- **H'**: 
+- **sum_w'**: 
+- **sum_h'**: 
+- **ub**: 
+- **lb**: 
+- **gap**: 
+- **opt**: 
+- **OOM**: 
+- **pre_time(s)**: 
+- **ub0_time(s)**: 
+- **dp_time(s)**: 
+- **bid_time(s)**:
+- **time(s)**: .
+
+In particular, we provide the solution of each instance computed by the two full versions and its visualization, such as the solution visualization of GCUT13 below:
+
+![GCUT13](https://picgo-wskh.oss-cn-guangzhou.aliyuncs.com/GCUT13.png)
 
 ```shell
 isOpt LB UB Gap
@@ -126,5 +160,3 @@ w_i: width of the i-th item
 h_i: height of the i-th item
 p_i: profit of the i-th item
 ```
-
-- **Set**: .
