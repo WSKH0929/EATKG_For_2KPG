@@ -136,7 +136,11 @@ We provide a csv file of the aggregated results for each version, where the colu
 
 In particular, we provide the solution of each instance computed by the two full versions and its visualization, such as the solution visualization of GCUT13 below:
 
-<img src="https://picgo-wskh.oss-cn-guangzhou.aliyuncs.com/GCUT13.png" alt="GCUT13" style="zoom:50%;" />
+<img src="https://picgo-wskh.oss-cn-guangzhou.aliyuncs.com/GCUT13.png" alt="GCUT13" style="zoom: 15%;" />
+
+where the white rectangles represent the packed items, the gray area represents the unused area in the container, and the numbers represent the id of the type of packed items (starting from 1).
+
+Details of the solution to an instance can be found in the sol file, which has the following format:
 
 ```shell
 isOpt LB UB Gap
