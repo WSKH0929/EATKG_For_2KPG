@@ -136,7 +136,7 @@ We provide a csv file of the aggregated results for each version, where the colu
 
 In particular, we provide the solution of each instance computed by the two full versions and its visualization, such as the solution visualization of GCUT13 below:
 
-![GCUT13](https://picgo-wskh.oss-cn-guangzhou.aliyuncs.com/GCUT13.png)
+<img src="https://picgo-wskh.oss-cn-guangzhou.aliyuncs.com/GCUT13.png" alt="GCUT13" style="zoom:50%;" />
 
 ```shell
 isOpt LB UB Gap
