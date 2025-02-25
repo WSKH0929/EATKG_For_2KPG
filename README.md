@@ -136,7 +136,7 @@ We provide a csv file of the aggregated results for each version, where the colu
 
 In particular, we provide the solution of each instance computed by the two full versions and its visualization, such as the solution visualization of GCUT13 below:
 
-![c7-p3](https://picgo-wskh.oss-cn-guangzhou.aliyuncs.com/c7-p3.png)
+![GCUT13](https://picgo-wskh.oss-cn-guangzhou.aliyuncs.com/GCUT13.png)
 
 where the white rectangles represent the packed items, the gray area represents the unused area in the container, and the numbers represent the id of the type of packed items (starting from 1).
 
