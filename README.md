@@ -2,9 +2,29 @@
 
 This repository hosts the source code for the proposed algorithm, along with the corresponding instance data, aggregated results, and detailed solutions. The reference to our paper is provided below.
 
-**Sunkanghong Wang, Roberto Baldacci, Qiang Liu, and Lijun Wei (2025) EATKG: An Open-Source Efficient <u>E</u>xact <u>A</u>lgorithm for the <u>T</u>wo-Dimensional <u>K</u>napsack Problem with <u>G</u>uillotine Constraints. Under Review.**
+https://doi.org/10.1016/j.ejor.2025.05.033
+
+**Sunkanghong Wang, Roberto Baldacci, Qiang Liu, and Lijun Wei (2025) EATKG: An Open-Source Efficient <u>E</u>xact <u>A</u>lgorithm for the <u>T</u>wo-Dimensional <u>K</u>napsack Problem with <u>G</u>uillotine Constraints. *European Journal of Operational Research*.**
 
 If you have any questions, please feel free to reach out to **[villagerwei@gdut.edu.cn](mailto:villagerwei@gdut.edu.cn)** or **[wskh0929@gmail.com](mailto:wskh0929@gmail.com)**.
+
+## Cite
+
+To cite the contents of this repository, please cite both the paper and this repository.
+
+Below is the BibTex for citing this repository:
+
+```
+@misc{wang2025eatkg,
+  title={{EATKG}: {A}n Open-Source Efficient Exact Algorithm for the Two-Dimensional Knapsack Problem with Guillotine Constraints},
+  author={Wang, Sunkanghong and Baldacci, Roberto and Liu, Qiang and Wei, Lijun},
+  journal={European Journal of Operational Research},
+  year={2025},
+  publisher={Elsevier}
+  url={https://github.com/WSKH0929/EATKG_For_2KPG},
+  note={Available for download at https://github.com/WSKH0929/EATKG_For_2KPG},
+}
+```
 
 ## Structure
 
