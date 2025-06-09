@@ -20,7 +20,8 @@ Below is the BibTex for citing this repository:
   author={Wang, Sunkanghong and Baldacci, Roberto and Liu, Qiang and Wei, Lijun},
   journal={European Journal of Operational Research},
   year={2025},
-  publisher={Elsevier}
+  publisher={Elsevier},
+  doi={https://doi.org/10.1016/j.ejor.2025.05.033},
   url={https://github.com/WSKH0929/EATKG_For_2KPG},
   note={Available for download at https://github.com/WSKH0929/EATKG_For_2KPG},
 }
